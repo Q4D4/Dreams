@@ -1,0 +1,63 @@
+/*  HEADER  */
+.container {
+	width: 100%;
+	min-height: 200vh;
+	/*position: relative;*/
+}
+.container > header {
+	width: inherit;
+	height: calc(100vh - 90px);
+	position: absolute;
+	right: 0;
+	left: 0;
+}
+/*  END OF HEADER  */
+
+/*  IMAGE  */
+.img_wrapper {
+	width: inherit;
+	height: inherit;
+}
+
+.img_wrapper > div {
+	position: absolute;
+}
+
+.overlay {
+	padding: 15px;
+	width: inherit;
+	height: inherit;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	/*
+	color:#E7BFFF;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	font-size: 24px;
+	line-height: 1.5;*/
+}
+
+.overlay h1 {
+	color:#E7BFFF;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 30px;
+	/*line-height: 1.5;*/
+}
+
+.overlay p {
+	color:#E7BFFF;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	font-size: 15px;
+	/*line-height: ;*/
+}
+/*  END OF IMAGE  */

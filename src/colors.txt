@@ -1,0 +1,6 @@
+primary: #582566;
+bg: #E7BFFF;
+text: #414141;
+
+
+footer: #071112
